@@ -6,10 +6,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN') or 'udacity-fsnd.auth0.com'
+AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN') 
 ALGORITHMS = ['RS256']
-API_AUDIENCE = os.environ.get('API_AUDIENCE') or 'dev'
-
+API_AUDIENCE = os.environ.get('API_AUDIENCE')
 ## AuthError Exception
 '''
 AuthError Exception
